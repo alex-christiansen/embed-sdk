@@ -68,22 +68,22 @@ export interface RuntimeConfig {
   useDynamicHeights: boolean
 }
 
-const lookerHost = 'mycompany.looker.com'
+const lookerHost = '4eb3a021-23dd-4db4-baf2-a77f5a0f3e6b.looker.app'
 
 // A dashboard that the user can see. Set to '-' or 0 to disable dashboard demo.
 // dashboardId can be a numeric id or a slug string.
-const dashboardId: number | string = 1
+const dashboardId: number | string = 7
 
 // A Look that the user can see. Set to 0 to disable look demo.
 // lookId must be numeric. Slugs are NOT supported.
 const lookId = 1
 
 // An Explore that the user can see. Set to '-' to disable explore demo.
-const exploreId = 'thelook::orders'
+const exploreId = 'thelook::order_items'
 
 // An Extension that the user can see. Set to '-' to disable extension demo.
 // Requires Looker 7.12 and extensions framework.
-const extensionId = 'extension::my-great-extension'
+const extensionId = 'tabbed-dashboards::kitchensink'
 
 // Demo new cookieless embed (new cookieless embed is not backward compatible)
 const cookielessEmbedV2 = false

@@ -77,7 +77,7 @@ const acquireLookerSession = async () => {
       lookerSession = new NodeSession(lookerSettings)
       await lookerSession.login()
     } catch (error) {
-      console.error('login failed', { error })
+      console.error('login failed here', { error })
       throw error
     }
   }
